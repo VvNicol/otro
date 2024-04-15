@@ -1,0 +1,14 @@
+C:\Users\csi23-nrojlla\source\repos\aduanasVehicular\obj\Debug\net8.0\aduanasVehicular.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\csi23-nrojlla\source\repos\aduanasVehicular\obj\Debug\net8.0\aduanasVehicular.AssemblyInfoInputs.cache
+C:\Users\csi23-nrojlla\source\repos\aduanasVehicular\obj\Debug\net8.0\aduanasVehicular.AssemblyInfo.cs
+C:\Users\csi23-nrojlla\source\repos\aduanasVehicular\obj\Debug\net8.0\aduanasVehicular.csproj.CoreCompileInputs.cache
+C:\Users\csi23-nrojlla\source\repos\aduanasVehicular\bin\Debug\net8.0\aduanasVehicular.exe
+C:\Users\csi23-nrojlla\source\repos\aduanasVehicular\bin\Debug\net8.0\aduanasVehicular.deps.json
+C:\Users\csi23-nrojlla\source\repos\aduanasVehicular\bin\Debug\net8.0\aduanasVehicular.runtimeconfig.json
+C:\Users\csi23-nrojlla\source\repos\aduanasVehicular\bin\Debug\net8.0\aduanasVehicular.dll
+C:\Users\csi23-nrojlla\source\repos\aduanasVehicular\bin\Debug\net8.0\aduanasVehicular.pdb
+C:\Users\csi23-nrojlla\source\repos\aduanasVehicular\obj\Debug\net8.0\aduanasVehicular.dll
+C:\Users\csi23-nrojlla\source\repos\aduanasVehicular\obj\Debug\net8.0\refint\aduanasVehicular.dll
+C:\Users\csi23-nrojlla\source\repos\aduanasVehicular\obj\Debug\net8.0\aduanasVehicular.pdb
+C:\Users\csi23-nrojlla\source\repos\aduanasVehicular\obj\Debug\net8.0\aduanasVehicular.genruntimeconfig.cache
+C:\Users\csi23-nrojlla\source\repos\aduanasVehicular\obj\Debug\net8.0\ref\aduanasVehicular.dll
