@@ -29,7 +29,7 @@ namespace aduanasVehicular.Controlador
                             mi.MenuPuertaSur();
                             break;
                         case 2:
-                            //oi.MenuPuertaOeste();
+                            mi.MenuPuertaOeste();
                             break;
                         case 3:
                             //oi.MenuPuertaNorte();
@@ -39,6 +39,9 @@ namespace aduanasVehicular.Controlador
                             break;
                         case 5:
                             //oi.MenuPuertaEsteNorte();
+                            break;
+                        default:
+                            Console.WriteLine("La opcion no es correcta");
                             break;
                     }
 

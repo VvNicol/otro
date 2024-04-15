@@ -31,8 +31,7 @@ namespace aduanasVehicular.Servicios
         {
             int opcionSeleccionar;
             bool esCerrado = false;
-            try
-            {
+            
 
                 do
                 {
@@ -45,23 +44,61 @@ namespace aduanasVehicular.Servicios
                             break;
                         case 1:
                             oi.RegistrarVehiculo(listaVehiculos);
-                            break;          
+                            break;
+                        default:
+                            Console.WriteLine("La opcion no es correcta");
+                            break;
                     }
 
                 } while (!esCerrado);
 
-            }
-            catch (IOException io)
-            {
-                Console.WriteLine("No se ha podido leer/escribir: " + io.Message);
-            }
         }
 
         private int PuertaSur()
         {
+            Console.WriteLine("---------------");
             Console.WriteLine("Menu Puerta Sur");
             Console.WriteLine("0.Volver");
             Console.WriteLine("1.Registrar vehiculos");
+
+            int opcionEscogida = int.Parse(Console.ReadLine());
+
+            return opcionEscogida;
+        }
+
+        public void MenuPuertaOeste()
+        {
+            int opcionSeleccionar;
+            bool esCerrado = false;
+          
+
+                do
+                {
+                    opcionSeleccionar = PuertaOeste();
+                    switch (opcionSeleccionar)
+                    {
+                        case 0:
+                            esCerrado = true;
+                            Console.WriteLine("Atras");
+                            break;
+                        case 1:
+                            oi.mostrarListaPuertaOste(listaVehiculos);
+                            break;
+                        default:
+                            Console.WriteLine("La opcion no es correcta");
+                            break;
+                    }
+
+                } while (!esCerrado);
+
+        }
+
+        private int PuertaOeste()
+        {
+            Console.WriteLine("---------------");
+            Console.WriteLine("Menu Puerta Oeste");
+            Console.WriteLine("0.Volver");
+            Console.WriteLine("1.Mostrar lista de vehiculos");
 
             int opcionEscogida = int.Parse(Console.ReadLine());
 

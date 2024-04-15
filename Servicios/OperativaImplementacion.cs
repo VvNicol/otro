@@ -9,6 +9,11 @@ namespace aduanasVehicular.Controlador
     /// </summary>
     internal class OperativaImplementacion : OperativaInterfaz
     {
+        public void mostrarListaPuertaOste(List<VehiculoDto> listaVehiculos)
+        {
+            throw new NotImplementedException();
+        }
+
         public void RegistrarVehiculo(List<VehiculoDto> listaVehiculos)
         {
             Console.WriteLine("Registro de vehiculo");

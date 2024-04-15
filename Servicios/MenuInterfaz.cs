@@ -11,6 +11,12 @@
         /// </summary>
         /// <returns></returns>
         int MenuPrincipal();
+
+        /// <summary>
+        /// Menu puerta Oeste para vehiculos P
+        /// </summary>
+        void MenuPuertaOeste();
+
         /// <summary>
         /// Menu de la puerta Sur
         /// </summary>

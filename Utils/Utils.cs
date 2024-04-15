@@ -37,7 +37,6 @@ namespace aduanasVehicular.Utils
                         zonaDto.EsZonaPuertaSur = false;
                         zonaDto.EsZonaPuertaNorte = true;
                         Console.WriteLine("Zona Norte ");
-
                     }
                 }
             }
